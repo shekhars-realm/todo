@@ -20,11 +20,17 @@ body {
   color: cornflowerblue;
   font-size: 30px;
   margin: 10px;
+  padding: 5px;
 }
 
 .blue-text{
-  font-size: 80px;
-  color: darkslateblue;
+  font-size: 60px;
+  margin: 0px;
+  color: black;
+}
+
+.textField{
+  font-size: 20px;
 }
 
 .inputClass{
@@ -37,9 +43,29 @@ body {
   margin: 10px;
 }
 
+.todoImg{
+  width: 100px;
+}
+
 .collection-item span:hover{
   cursor: pointer;
   text-decoration: line-through;
+}
+
+.logoutBtn{
+  background: red;
+  position: absolute !important;
+  top: 0px !important;
+  right: 0px !important;
+  margin: 2% !important;
+}
+
+.logoutBtn span:hover{
+  text-decoration: none;
+}
+
+small{
+  font-size: 13px;
 }
 
 form{
